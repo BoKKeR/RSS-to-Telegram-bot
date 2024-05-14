@@ -22,4 +22,4 @@ fi
 
 $PRISMA migrate deploy
 
-node --max_old_space_size=2048 dist/src/main.js
+node --max_old_space_size=3048 dist/src/main.js
